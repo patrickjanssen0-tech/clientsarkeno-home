@@ -8,6 +8,14 @@
     {
       "source": "/sahin/:path*",
       "destination": "https://sahin-ashen.vercel.app/:path*"
+    },
+    {
+      "source": "/saana",
+      "destination": "https://saana-flame.vercel.app/"
+    },
+    {
+      "source": "/saana/:path*",
+      "destination": "https://saana-flame.vercel.app/:path*"
     }
   ]
 }
