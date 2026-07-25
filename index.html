@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkeno</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:#000;
+            color:#fff;
+            font-family:Arial, Helvetica, sans-serif;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+        }
+
+        .container{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+        }
+
+        img{
+            width:360px;
+            max-width:80vw;
+            margin-bottom:70px;
+        }
+
+        a{
+            display:inline-flex;
+            align-items:center;
+            gap:10px;
+            padding:16px 32px;
+            color:white;
+            text-decoration:none;
+            border:1px solid white;
+            border-radius:12px;
+            font-size:18px;
+            transition:.25s ease;
+        }
+
+        a:hover{
+            background:white;
+            color:black;
+        }
+
+        .footer{
+            position:fixed;
+            bottom:25px;
+            left:0;
+            width:100%;
+            text-align:center;
+            color:#666;
+            font-size:14px;
+        }
+
+        @media (max-width:600px){
+
+            img{
+                width:240px;
+                margin-bottom:50px;
+            }
+
+            a{
+                font-size:16px;
+                padding:14px 24px;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img src="logo.svg" alt="Arkeno">
+
+        <a href="https://www.arkeno.be" target="_blank">
+            🌐 Visiter www.arkeno.be
+        </a>
+
+    </div>
+
+    <div class="footer">
+        © Arkeno
+    </div>
+
+</body>
+</html>
